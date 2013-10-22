@@ -1,0 +1,22 @@
+=head1 NAME
+
+factloader - Load facts from Puppet YAML files into Inventory
+
+=head1 SYNOPSIS
+
+   factloader { --factpath path | file } [file [...]]
+      --nocheck-expiry  Don't check expiration date
+      --factpath        Specify directory full of *.yaml files
+      --trafficcontrol  Specify trafficcontrol parameter
+         url=           Specify trafficcontrol URL
+         username=      Specify trafficcontrol Username
+         password=      Specify trafficcontrol password
+      Other options as outlined in Optconfig
+
+=head1 DESCRIPTION
+
+=head1 AUTHOR
+
+Jeremy Brinkley, E<lt>jbrinkley@proofpoint.comE<gt>
+
+=cut

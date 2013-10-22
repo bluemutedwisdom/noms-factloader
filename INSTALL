@@ -1,0 +1,4 @@
+Installation Instructions (basic)
+
+* Install prerequisites (optconfig, prism-client)
+* Copy factloader, fact2fact to a binary location
