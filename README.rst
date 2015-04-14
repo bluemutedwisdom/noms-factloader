@@ -1,8 +1,17 @@
-=head1 NAME
+noms-factloader
+===============
 
-factloader - Load facts from Puppet YAML files into Inventory
+This package provides a ``factloader`` script that is used for batch
+and on-demand loading of Puppet Facter_ facts into the NOMS_ CMDB.
 
-=head1 SYNOPSIS
+.. _NOMS: http://github.com/evernote/noms-client/wiki
+
+.. _Facter: http://puppetlabs.com/facter
+
+Syntax
+------
+
+.. ::
 
    factloader { --factpath path | file } [file [...]]
       --nocheck-expiry  Don't check expiration date
@@ -12,11 +21,3 @@ factloader - Load facts from Puppet YAML files into Inventory
          username=      Specify trafficcontrol Username
          password=      Specify trafficcontrol password
       Other options as outlined in Optconfig
-
-=head1 DESCRIPTION
-
-=head1 AUTHOR
-
-Jeremy Brinkley, E<lt>jbrinkley@proofpoint.comE<gt>
-
-=cut
